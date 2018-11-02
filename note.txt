@@ -1,0 +1,48 @@
+不要用int**，最好直接作为固定长度的全局数组
+
+cin.clear();
+cin.sync();
+清空缓存区（getchar,getline常用）
+
+数组长度开大一点，多个五位左右
+
+可以用const int作为数组长度定义
+
+数组不宜开太大，一般在10^8左右为上限，全局数组可能长度大一点
+
+不要想多，有时候二分查找就很好了
+
+快速幂
+int mod(int k, int n)
+{  
+    int ans=1, base=10;
+    while(k!=0){
+    	if(k%2){
+    		ans = (ans*base)%n;
+		}
+    	base = (base*base)%n; 
+    	k = k/2;
+	}
+	
+    return ans;  
+} 
+
+归并排序求逆序对
+void distance(int n)
+{
+	for(int i = 0;i<n;i++){
+		aIdx[a[i][2]] = i;
+	}
+	for(int i = 0;i<n;i++){
+		bIdx[i] = aIdx[b[i][2]];
+	}
+	
+	cout<<endl;
+	MergeSort(0, n-1, 0, 2);
+}
+
+可以用加入一圈元素的方式简化计算，像是在一个城镇附近加一圈无用的数据
+
+能用一个循环绝不拆开成两个，能合并的判断绝不分开
+
+记得取消同步，也可以直接用scanf，printf
