@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1542900129 source:g:\大二\课程\大二上\data structure\final_project\deque\test\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<queue>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	"deque.hpp"
+	"exceptions.hpp"
+
+1540187960 g:\大二\课程\大二上\data structure\final_project\deque\test\class-integer.hpp
+
+1542268004 g:\大二\课程\大二上\data structure\final_project\deque\test\class-matrix.hpp
+	<iostream>
+	<iomanip>
+	<vector>
+	<stdexcept>
+
+1540187960 g:\大二\课程\大二上\data structure\final_project\deque\test\class-bint.hpp
+	<string>
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<vector>
+	<stdexcept>
+	<iomanip>
+	<algorithm>
+
+1542954453 g:\大二\课程\大二上\data structure\final_project\deque\test\deque.hpp
+	"exceptions.hpp"
+	<cstddef>
+
+1540187960 g:\大二\课程\大二上\data structure\final_project\deque\test\exceptions.hpp
+	<cstddef>
+	<cstring>
+	<string>
+
