@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1544512133 source:g:\大二\课程\大二上\data structure\final_project\map\test\main.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<queue>
+	<cmath>
+	<vector>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<algorithm>
+	"map.hpp"
+
+1544543238 g:\大二\课程\大二上\data structure\final_project\map\test\map.hpp
+	<functional>
+	<cstddef>
+	"utility.hpp"
+	"exceptions.hpp"
+
+1540187960 g:\大二\课程\大二上\data structure\final_project\map\test\utility.hpp
+	<utility>
+
+1540187960 g:\大二\课程\大二上\data structure\final_project\map\test\exceptions.hpp
+	<cstddef>
+	<cstring>
+	<string>
+
